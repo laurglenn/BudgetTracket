@@ -286,7 +286,7 @@ with tab1:
     fig.add_trace(go.Bar(name="Budget",  x=labels, y=budgets_vals, marker_color="#2196F3", opacity=0.6))
     fig.add_trace(go.Bar(name="Spent",   x=labels, y=spent_vals,   marker_color=colors))
     fig.update_layout(
-        barmode="group", paper_bgcolor="#0f1117", plot_bgcolor="#0f1117",
+        barmode="group", paper_bgcolor="#f0f4f8", plot_bgcolor="#f0f4f8",
         font_color="#ffffff", legend=dict(bgcolor="#1e2130"),
         xaxis=dict(tickangle=-35, gridcolor="#2a2f45"),
         yaxis=dict(gridcolor="#2a2f45", tickprefix="$"),
